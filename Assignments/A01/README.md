@@ -11,7 +11,7 @@ This folder contains the self image for me on the main README for my this repo. 
 | :---: | ------------------------------------------------------------- | -------------------------------------------------- |
 |   1   | [Self Image](./self_image.jpg)                                | The image used to display for the repo README      |
 
-|                                Group Picture                               |
+|                                Self Picture                                |
 | :------------------------------------------------------------------------: |
 |  <img src="self_image.jpg" width="400">                                    |
 | A picture of myself at the 2025 MSU Awards Banquet next to MSU's President |
