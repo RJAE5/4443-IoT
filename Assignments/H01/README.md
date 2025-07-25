@@ -1,6 +1,35 @@
-## H01 Seven-Segment Display
-### Rykir Evans
-### Description:
+# H01 Seven-Segment Display
+## Rykir Evans
+
+### 🛠️ TLDR (AI Enhanced)
+
+This project explored using a **single-digit 7-segment display** with an Arduino, starting from identifying pinouts to writing interactive code that controlled the display.
+
+- 🔌 **Hardware Setup**  
+  - Mapped out the 10-pin 7-segment display, identifying which pins control each segment.  
+  - Added resistors for each segment (plus the decimal dot).  
+  - Assembled and tested the display with manual pin activation.
+
+- 🐍 **Looping Pattern Animation**  
+  - Programmed a "snake" animation where segments light up in a rotating pattern.  
+  - Used digital pins and `digitalWrite()` with delays to create smooth visual flow.  
+  - Learned how to manage pin mapping, timing, and animation logic.
+
+- 🔢 **Button-Controlled Number Incrementer**  
+  - Used a tactile button to increment through digits 0–9 on the display.  
+  - Implemented two arrays: one for segment pins, and one for digit configurations.  
+  - Included debounce logic to ensure clean single-step inputs.  
+  - Demonstrated how to combine input reading with dynamic output control.
+
+- 🎲 **(Pseudo) Random Number Generator**  
+  - Removed debounce logic to let digits cycle rapidly while the button is pressed.  
+  - Created a “randomized” number effect based on when the user releases the button.  
+  - Showed how reaction timing can simulate randomness without needing random functions.
+
+> This is a condensed summary. Full project details, code explanations, and reflections can be found in the **Full Description** section below.
+
+
+### Full Description:
 
 Moving on from simple LEDs, one of my personal projects that I was able to take home and work on over the first weekend of this course was a single seven segment display. Having worked extensively with the idea of seven segment displays in a previous Logic Design course, I was captivated by turning that work into a physical circuit. This homework project goes from learning how to power the display to creating a pattern, and ultimately a number incrementer.
 

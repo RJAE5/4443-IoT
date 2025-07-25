@@ -1,6 +1,46 @@
-## L01 Introduction Lab
-### Rykir Evans
-### Description:
+# L01 Introduction Lab
+## Rykir Evans
+### 🛠️ TLDR (AI Enhanced)
+
+This lab kicked off the course by exploring **basic Arduino programming** and **introductory circuit design**. Through a series of small experiments, I learned how to power LEDs, control them with **code**, and integrate **analog components** like potentiometers and RGB LEDs for dynamic control.
+
+- 🔌 **Basic LED Circuit**  
+  - Powered a single LED using pin 5 with a 220Ω resistor.  
+  - First experiment in wiring and breadboarding.  
+  - Learned basic `pinMode()` and `digitalWrite()` functions.  
+  - Resulted in a simple "always on" LED.
+
+- ⏱️ **Blinking LED (Digital Control)**  
+  - Moved logic to `loop()` and added `delay()` calls to make the LED blink every second.  
+  - Introduced core timing mechanics of the Arduino platform.
+
+- 🎚️ **Potentiometer-Controlled Blink**  
+  - Used a potentiometer (connected to analog pin A3) to dynamically control the LED blink speed.  
+  - Introduced `analogRead()` and `map()` to convert analog values (0–1023) into a usable delay (100–1000 ms).  
+  - Gave real-time analog input control to the circuit.  
+  - ✅ [Demo Video](./media/potentiometer-close.mov)
+
+- 🌈 **RGB LED Control**  
+  - Identified pin mapping of RGB LED through trial and error.  
+  - Used pins 9, 10, and 11 to power red, green, and blue individually.  
+  - Created a cycling color effect using `digitalWrite()` and delay logic.  
+  - ✅ [Demo Video](./media/rgb-led-close.mov)
+
+- 🧪 **Bonus: RGB LED “Yellow Thief” Experiment**  
+  - Inserting a yellow LED (or a resistor) caused an unexpected result:  
+    - RGB LED began alternating red and green instead of showing yellow.  
+  - Hypothesis: current redirection caused by altered load/resistance, affecting shared anode/cathode voltage dynamics.  
+  - Confirmed with ChatGPT analysis (included in full description).  
+  - ✅ [Demo Video](./media/rgb-yellow-thief.mov)
+
+- 📷 **Media Samples**:  
+  | Blink Setup | Potentiometer Setup | RGB LED Circuit |  
+  | :---------: | :-----------------: | :-------------: |  
+  | ![](./media/intro-birds-eye.png) | ![](./media/potentiometer-birds-eye.png) | ![](./media/rgb-led-birds-eye.png) |
+
+> This lab introduced essential hardware and software skills for working with embedded systems. For full schematics, circuit explanations, and extra insights, see the **Full Description** below.
+
+### Full Description:
 
 This folder contains the documentation for the first lab activity in 4443-IoT. This introductory lab exhibits basic use and code examples for the Arduino as well as basic hardware implementation of LEDs and resistors. 
 

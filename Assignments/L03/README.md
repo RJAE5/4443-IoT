@@ -1,7 +1,7 @@
 # L03 Distance Indicator & Soldering
 ## Rykir Evans
 
-## 🛠️ TLDR (AI Enhanced)
+### 🛠️ TLDR (AI Enhanced)
 
 > Refer to [AI Disclaimer](./../README.md) for more information
 
