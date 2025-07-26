@@ -1,7 +1,7 @@
 ### AI Disclaimer
 Some README files for documents have **been enhanced using AI** for viewing/reading pleasure. AI Enhanced READMEs will be clearly marked using `🛠️ TLDR (AI Enhanced)` at the top of the document. These sections were generated using my hand-typed description in a prompt to some AI, typically ChatGPT. My hand-typed version will be found below this section, clearly marked `Full Description`. Everything within this sections of the README is 100% human typed with minimal exceptions, and these exceptions are clearly marked.
 
-**I chose to use AI for this course for numerous reasons.** First and foremost, it is often encouraged by our professor who follows a similar belief on what AI should be used for. I would not be using AI if I had not been encouraged to or if it were against the rules. At MSU, use of AI is (currently) at the discretion of the professor, and I will adhere to the rules laid out for each class in their respective syllabus. Obviously, in this class, using AI is allowed, so long as we credit it properly. 
+**I chose to use AI for this course for numerous reasons.** First and foremost, it is often encouraged by our professor who follows a similar belief on what AI should be used for. I would not be using AI if I had not been encouraged to or if it were against the rules. At MSU, use of AI is (currently) at the discretion of the professor, and I will adhere to the rules laid out for each class in their respective syllabus. Obviously, [in this class](./https://github.com/rugbyprof/4443-Msu-IoT/blob/main/README.md), using AI is allowed, so long as we credit it properly. 
 
 Additionally, I am a very verbose writer, and I like to explain things, whether they need to be explained or not (You can probably notice this reading this very disclaimer). Upon writing my description for Lab 3, I realized this led to my READMEs becoming unecessarily long and more of a chore to read as it was hard to distinguish important details from context. This led me to ponder the idea of rewriting them entirely using AI. I quickly shot down this idea because that would mean I spent hours writing the detailed description just to cut it out for something slightly more organized. 
 
@@ -11,7 +11,7 @@ I compromised the idea by implementing a TLDR section which summarizes everythin
 
 
 ### Table
-Below is a table summarizing each Assignment within this document. The order is based on the type of assignment (alphabetically), there is no chronological distinction.
+Below is a table summarizing each Assignment within this folder. The order is based on the type of assignment (alphabetically), there is no chronological distinction.
 
 |  #  | Folder        | Description                             |
 | --- | ------------- | --------------------------------------- |
