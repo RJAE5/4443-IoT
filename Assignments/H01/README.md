@@ -2,6 +2,7 @@
 ## Rykir Evans
 
 ### 🛠️ TLDR (AI Enhanced)
+> Refer to [AI Disclaimer](./../README.md) for more information
 
 This project explored using a **single-digit 7-segment display** with an Arduino, starting from identifying pinouts to writing interactive code that controlled the display.
 

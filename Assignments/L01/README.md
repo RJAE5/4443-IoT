@@ -1,6 +1,7 @@
 # L01 Introduction Lab
 ## Rykir Evans
 ### 🛠️ TLDR (AI Enhanced)
+> Refer to [AI Disclaimer](./../README.md) for more information
 
 This lab kicked off the course by exploring **basic Arduino programming** and **introductory circuit design**. Through a series of small experiments, I learned how to power LEDs, control them with **code**, and integrate **analog components** like potentiometers and RGB LEDs for dynamic control.
 
@@ -220,15 +221,8 @@ Overall, this lab served its purpose to get someone with zero experience up and 
 ### Files
 
 **All pictures and videos are contained within the `media` folder**
-|   #   | File                                                          | Description                                        |
-| :---: | ------------------------------------------------------------- | -------------------------------------------------- |
-|   1   | [intro-birds-eye](./media/intro-birds-eye.png)                | Bird's eye image of the introduction circuit       |
-|   2   | [intro-close](./media/intro-close.png)                        | Close-up view of the introduction circuit          |
-|   3   | [potentiometer-birds-eye](./media/potentiometer-birds-eye.png)| Bird's eye image of the potentiometer circuit      |
-|   4   | [potentiometer-close](./media/potentiometer-close.mov)        | Video showing potentiometer-controlled blinking    |
-|   5   | [rgb-led-birds-eye](./media/rgb-led-birds-eye.png)            | Bird's eye image of RGB LED circuit                |
-|   6   | [rgb-led-close](./media/rgb-led-close.mov)                    | Video showing RGB LED alternating                  |
-|   7   | [rgb-yellow-thief](./media/rgb-yellow-thief.mov)              | Video showing the yellow LED stealing current      |
+A detailed table of each file can also be found in the `media` folder [here](./media/README.md)
+
 
 
 
