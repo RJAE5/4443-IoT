@@ -20,4 +20,6 @@ Below is a table summarizing each Assignment within this folder. The order is ba
 | H02 | [H02](./H02/) | Arduino-less Electronic Circuits        |
 | L01 | [L01](./L01/) | Intro LED Circuits                      |
 | L02 | [L02](./L02/) | PENDING                                 |
-| L03 | [L03](./L03/) | Distance-Sensing and Soldering
+| L03 | [L03](./L03/) | Distance-Sensing and Soldering          |
+| P01A| [P01A](./P01A/)| Custome Binary Encoder Keypad          |
+| P01B| [P01B](./P01B/)| Incomplete                             |
