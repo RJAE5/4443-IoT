@@ -1,5 +1,3 @@
-# P01A (Part A) Custom Keypad
-## Rykir Evans
 # P01A (Part A) Custom Keypad  
 ## Rykir Evans
 
