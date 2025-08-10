@@ -1,5 +1,61 @@
 # P01A (Part A) Custom Keypad
 ## Rykir Evans
+# P01A (Part A) Custom Keypad  
+## Rykir Evans
+
+### 🛠️ TLDR (AI Enhanced)
+
+> Refer to [AI Disclaimer](./../README.md) for more information
+
+This project explores creating a **fully custom binary-encoded keypad** designed to operate with only **5 Arduino pins** instead of the typical 13+ used by a 3x4 matrix. Inspired by a hardware shortage, the project involves **engineering a unique keypad** where each number is encoded into a **4-bit binary signal** and read digitally.
+
+- 🔢 **Keypad Design**:  
+  - 12 pushbuttons mapped to 4-bit binary combinations  
+  - Button `0` mapped to `1010` to distinguish from no input (`0000`)  
+  - **Little-endian layout**: bit 1 → pin 12, bit 8 → pin 9
+
+- ⚡ **Binary Encoder Logic**:  
+  - Uses Arduino `digitalRead()` to convert active LOW signals to decimal  
+  - LEDs used as **diodes** to prevent voltage backflow  
+  - Button press = one unique binary value → converted to number
+
+- 🔧 **Hardware**:
+  - 12 pushbuttons
+  - Micro LEDs acting as diodes
+  - Standard perfboard (7cm x 9cm)
+  - Header pins & jumpers (color-coded)
+  - Custom-built **daughter-board** with transistors for logic correction
+
+- 🧠 **Code**:
+  - Reads each bit with inverted logic (`!digitalRead()`)
+  - Adds up binary values to form decimal
+  - Special handling:
+    - Value `10` = button 0  
+    - Value `0` = no button → set to `-1`
+  - Includes 500ms read delay and debug `Serial.println()` outputs
+
+- 🔩 **Soldering Highlights**:
+  - Longest soldering project to date (~2 weeks)
+  - Wire routing was difficult due to tight PCB layout and bulky wire
+  - Micro LEDs required creative mounting with header pins
+  - Debugged multiple issues:
+    - Shorted traces from shared inputs
+    - Capacitance buildup causing false readings
+    - LED diodes behaving differently than expected
+
+- 🧪 **Daughter-Board Fix**:
+  - Prototype board added **pull-down resistors and transistors**
+  - Reads **active LOW** values by detecting current flow to ground
+  - In-progress: missing 8-bit and 4-bit connections
+
+- 📷 **Media**:
+  | Prototype Top | Soldering Prep | Final Keypad | Daughter-Board |
+  | :-----------: | :------------: | :----------: | :------------: |
+  | ![](./media/encoder-birds-eye.png) | ![](./media/keypad-start-top.png) | ![](./media/keypad-finish-top.png) | ![](./media/daughter-bitrds-eye.png) |
+
+🎥 [Watch Prototype Video](./media/encoder-vid.MOV)
+
+> For soldering diagrams, debugging notes, and test code, see **Full Description** below.
 
 
 ### Full Description:
