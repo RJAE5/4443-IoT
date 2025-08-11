@@ -1,6 +1,54 @@
 # H02 Arduino-Less Electric Circuits
 ## Rykir Evans
 
+### 🛠️ TLDR (AI Enhanced)
+
+> Refer to [AI Disclaimer](./../README.md) for more information
+
+This project explores building **oscillating LED circuits without any microcontroller**, relying solely on **passive and active electronic components** like **transistors, capacitors, and resistors**. It began with a **single LED blinking circuit** and evolved into a more complex attempt at a **multi-LED sequential flasher**—with mixed results.
+
+- ⚡ **Concept**:  
+  Oscillating circuits built entirely **without Arduino**, powered by feedback loops between **transistors and capacitors**
+
+- 🔧 **Hardware**:
+  - 2x NPN Transistors (e.g. 2N2222 or similar)
+  - 2x Capacitors (tuned via trial & error)
+  - 4x Resistors
+  - 1x LED (initial), 4x LEDs (strobe version)
+  - Pushbutton (added for safety)
+  - Basic Breadboard setup with jumper wires
+
+- 💡 **Circuit #1 – Single LED Blinker**:
+  - Capacitors alternate discharging, toggling transistor states
+  - Only one LED blinks, but blink **rate fluctuates**
+  - Most stable behavior achieved with **0.1μF + 100μF** capacitor combo
+  - Resistors between transistors ~5Ω (approx.)
+
+  🎥 [Watch Blinker Demo](./media/intro-video.MOV)
+
+- 💥 **Circuit #2 – Strobe Light**:
+  - Based on schematic from peer
+  - Intended to blink **4 LEDs in sequence**
+  - Actual behavior: **all LEDs flash simultaneously** at high speed
+  - Resembles a **strobe light**, very bright, rapid blink
+  - Pushbutton added to prevent accidental flashing
+
+  🎥 [Watch Strobe Demo](./media/strobe-video.MOV)
+
+- 🧠 **Lessons Learned**:
+  - Discovered how small component changes affect circuit behavior  
+  - First practical exposure to **transistors as switches**  
+  - Gained knowledge useful for later projects like the [Custom Keypad](./../P01A/) daughter-board fix  
+  - Blink instability & unintended behavior likely due to timing misbalance or component variance
+
+- 📷 **Media**:  
+  | Single LED Blinker | 4-LED Strobe Circuit |
+  | :----------------: | :------------------: |
+  | ![](./media/intro-birds-eye-cap.png) | ![](./media/strobe-birds-eye-.png) |
+
+> For further schematics and refinements, revisit this README later in the semester (to be updated).
+
+
 ### Full Description
 Early on in the course, once we received our materials, we started experimenting with the more advanced of the basic breadboard components, i.e. transistors, capacitors, etc. This led us to initially be able to blink an LED, similar to that of how [L01](./../L01/) started.
 
